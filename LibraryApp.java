@@ -16,9 +16,9 @@ public class LibraryApp {
 
     private static Book retrieveBookFromDatabase() {
         Book book = new Book();
-        book.setTitle("An Example Book");
-        book.setAuthor("John Doe");
-        book.setISBN("1234567890");
+        book.setTitle("Robinson Crusoe");
+        book.setAuthor("Daniel Defoe");
+        book.setISBN("9780194229845");
         return book;
     }
 }
